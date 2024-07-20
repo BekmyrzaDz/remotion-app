@@ -9,11 +9,7 @@ export const BasicTransition = () => {
 	return (
 		<TransitionSeries>
 			<TransitionSeries.Sequence durationInFrames={60}>
-				<Img
-					style={{ width: 'auto', height: 'fit-content' }}
-					src={photo1}
-					alt='photo1'
-				/>
+				<Img src={photo1} alt='photo1' />
 			</TransitionSeries.Sequence>
 			<TransitionSeries.Transition
 				presentation={fade()}
